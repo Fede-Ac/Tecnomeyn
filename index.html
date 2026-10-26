@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnomeyn | Válvulas, Tornería e Instrumentación Industrial</title>
+  <meta name="description" content="Tecnomeyn: Calibración, reparación y certificación de válvulas de seguridad habilitadas por URSEA. Tornería industrial, bombas y mantenimiento de calderas en Uruguay.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tecnomeyn - Válvulas y Tornería Industrial">
+  <meta property="og:description" content="Servicios habilitados por URSEA en calibración y reparación de válvulas de seguridad, instrumentación y mecánica industrial en Uruguay.">
+  <meta property="og:image" content="assets/images/logo.png">
+  <meta property="og:type" content="website">
+
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Barra superior informativa (Visible en PC / Tablet) -->
+  <aside class="topbar" aria-label="Información rápida de contacto y atención">
+    <div class="container">
+      <div class="topbar-info">
+        <span class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <strong>Horario:</strong> Lun a Vie 9:00 a 13:00 y 14:00 a 17:00 hs
+        </span>
+        <span class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Curiales 1531, Montevideo
+        </span>
+      </div>
+      <div class="topbar-badge">
+        Habilitados por URSEA
+      </div>
+    </div>
+  </aside>
+
+  <!-- Encabezado de Navegación -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#inicio" class="brand" aria-label="Tecnomeyn Inicio">
+        <img src="assets/images/logo.png" alt="Logo de Tecnomeyn" class="brand-logo" width="50" height="50">
+        <div class="brand-info">
+          <span class="brand-title">TECNOMEYN</span>
+          <span class="brand-subtitle">Mecánica y Válvulas Industriales</span>
+        </div>
+      </a>
+
+      <!-- Botón móvil para menú -->
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navMenu">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Menú principal -->
+      <nav aria-label="Navegación principal">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#productos-servicios" class="nav-link">Productos y Servicios</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         SECCIÓN INICIO (Hero Industrial y Resumen Rápido)
+         ======================================================================= -->
+    <section id="inicio" class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge-ursea">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              Habilitados por URSEA como agente vinculado a válvulas de seguridad
+            </div>
+            <h1>
+              Una empresa con vocación de servicio 
+              <span class="hero-highlight">al servicio de su empresa.</span>
+            </h1>
+            <p class="hero-text">
+              Válvulas Tecnomeyn, en su afán por la satisfacción del cliente, desarrolla una serie de soluciones y servicios integrales de mecánica y tornería industrial con más de 30 años de experiencia.
+            </p>
+            <div class="hero-actions">
+              <a href="https://wa.me/59895987342?text=Hola%20Tecnomeyn,%20me%20comunico%20desde%20la%20web%20para%20solicitar%20asesoramiento." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" aria-label="Enviar WhatsApp a Tecnomeyn">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Consultar por WhatsApp
+              </a>
+              <a href="#productos-servicios" class="btn btn-outline">
+                Ver Catálogo y Servicios
+              </a>
+            </div>
+          </div>
+
+          <!-- Carrusel de fotos de taller / planta Tecnomeyn -->
+          <div class="hero-slider-card">
+            <div class="slider-container" aria-label="Galería fotográfica de Tecnomeyn">
+              <div class="slider-track" id="sliderTrack">
+                <div class="slider-slide">
+                  <img src="assets/images/local2.jpg" alt="Instalaciones Tecnomeyn planta y taller" loading="eager" width="800" height="500">
+                  <div class="slider-caption">Taller de Maquinaria y Válvulas</div>
+                </div>
+                <div class="slider-slide">
+                  <img src="assets/images/slider3.jpg" alt="Sector de calibración y banco de pruebas" loading="lazy" width="800" height="500">
+                  <div class="slider-caption">Banco de Calibración y Seguridad URSEA</div>
+                </div>
+                <div class="slider-slide">
+                  <img src="assets/images/instrumentacion.jpg" alt="Válvulas industriales y de seguridad" loading="lazy" width="800" height="500">
+                  <div class="slider-caption">Fabricación y Reparación de Válvulas</div>
+                </div>
+                <div class="slider-slide">
+                  <img src="assets/images/servicios.jpg" alt="Mantenimiento y calibración in-situ" loading="lazy" width="800" height="500">
+                  <div class="slider-caption">Servicio In-Situ en Planta Industrial</div>
+                </div>
+              </div>
+
+              <!-- Controles del carrusel -->
+              <button class="slider-btn prev" id="sliderPrev" aria-label="Foto anterior">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="15 18 9 12 15 6"></polyline></svg>
+              </button>
+              <button class="slider-btn next" id="sliderNext" aria-label="Siguiente foto">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+              <div class="slider-dots" id="sliderDots"></div>
+            </div>
+            <div class="slider-badge-footer">
+              30 años de experiencia al servicio de más de cien industrias
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Franja de características destacadas -->
+    <div class="features-strip">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Habilitación URSEA</h4>
+              <p>Agente vinculado a válvulas de seguridad</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Servicio In-Situ</h4>
+              <p>Mantenimiento directo en su planta</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>30 Años de Experiencia</h4>
+              <p>Mecánica y tornería industrial sólida</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Laboratorio de Calibración</h4>
+              <p>Presión, temperatura e instrumentación</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         SECCIÓN PRODUCTOS Y SERVICIOS
+         ======================================================================= -->
+    <section id="productos-servicios" class="section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Especialización Industrial</span>
+          <h2>Productos y Servicios</h2>
+          <p>Catálogo técnico completo de válvulas, instrumentación industrial, tornería y servicios en planta.</p>
+        </header>
+
+        <!-- Destacado Urgente: Mantenimiento In Situ / Paro de Planta -->
+        <div class="service-highlight-banner">
+          <span class="badge">NUEVO SERVICIO DESTACADO</span>
+          <h3>¡STOP AL PARO DE PLANTA! Calibración y Mantenimiento de Equipos Críticos en su Ubicación</h3>
+          <p>
+            Estimados clientes y socios: Deje de perder tiempo y dinero enviando sus equipos fuera de sus instalaciones. En Tecnomeyn hemos revolucionado nuestro servicio para llevarle la solución completa a su planta: <strong>Calibración y Mantenimiento In-Situ de Generadores de Vapor e Instrumentación</strong>.
+          </p>
+          <div class="service-highlight-points">
+            <div class="highlight-point">
+              <strong>Cero Logística</strong>
+              Elimine los costos y riesgos asociados al transporte fuera de planta.
+            </div>
+            <div class="highlight-point">
+              <strong>Mínimo Downtime</strong>
+              Sus equipos regresan a producción operativa en horas, no en días.
+            </div>
+            <div class="highlight-point">
+              <strong>Inspección Anual con Ingeniero</strong>
+              Puesta a punto y entrega de toda la documentación reglamentaria ante URSEA.
+            </div>
+          </div>
+        </div>
+
+        <!-- Botones de filtrado rápido por categoría -->
+        <div class="products-nav" role="tablist" aria-label="Filtrar por rubro">
+          <button class="tab-btn active" data-filter="todos" role="tab">Todos</button>
+          <button class="tab-btn" data-filter="servicios" role="tab">Servicios de Taller y Planta</button>
+          <button class="tab-btn" data-filter="valvulas" role="tab">Válvulas</button>
+          <button class="tab-btn" data-filter="instrumentacion" role="tab">Instrumentación</button>
+          <button class="tab-btn" data-filter="varios" role="tab">Varios e Insumos</button>
+        </div>
+
+        <!-- CATEGORÍA: SERVICIOS -->
+        <div class="catalog-category" data-category="servicios">
+          <h3 class="category-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            Servicios Especializados
+          </h3>
+          <div class="catalog-grid">
+            <article class="product-card">
+              <h4>Laboratorio de Calibración</h4>
+              <p>Calibración y certificación de instrumentación industrial: Presión y Temperatura con patrones certificados.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Laboratorio%20de%20Calibracion" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Válvulas de Seguridad URSEA</h4>
+              <p>Calibración, reparación y certificación habilitada por URSEA como agente vinculado de seguridad.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Valvulas%20de%20Seguridad" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Reparación de Bombas</h4>
+              <p>Reparación integral de bombas para calderas de vapor y mantenimiento para todo tipo de fluidos industriales.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Reparacion%20de%20Bombas" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Tornería Industrial en General</h4>
+              <p>Trabajos de mecanizado, recuperación y fabricación de piezas en aceros especiales con 30 años de oficio.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Torneria%20Industrial" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Control de Estado Hídrico</h4>
+              <p>Servicio técnico y reparación completa de controles hídricos para calderas y recipientes a presión.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Control%20de%20Estado%20Hidrico" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Inspección Anual Básica URSEA</h4>
+              <p>Puesta a punto integral con intervención de ingeniero calificado y entrega del expediente para presentar ante URSEA.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Inspeccion%20Anual%20URSEA" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- CATEGORÍA: VÁLVULAS -->
+        <div class="catalog-category" data-category="valvulas">
+          <h3 class="category-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2v20M2 12h20M7 7l10 10M17 7L7 17"/></svg>
+            Válvulas Industriales y Especiales
+          </h3>
+          <div class="catalog-grid">
+            <article class="product-card">
+              <h4>Válvulas Reguladoras de Presión</h4>
+              <p>Reparación, ajuste y puesta a punto de válvulas reductoras y reguladoras de vapor, gases y fluidos.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Valvulas%20Reguladoras" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Grifos de Nivel de Alta Presión</h4>
+              <p>Fabricación de grifos de nivel en acero de alta presión para tubos o cajas en calderas.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Grifos%20de%20Nivel" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Grifos de Nivel Acero Inoxidable 316</h4>
+              <p>Fabricación en calidad inoxidable 316 para exigencias químicas y de vapor severo.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Grifo%20Inox%20316" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Válvulas de Vacío para Barométrica</h4>
+              <p>Fabricación a medida de válvulas de vacío para tanques de barométrica e industrias afines.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Valvula%20de%20Vacio" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Válvulas de Seguridad Acero Inoxidable a 30 bar</h4>
+              <p>Fabricación y calibración con cuerpo en T, asientos de alta precisión y certificado.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Valvula%20Seguridad%2030%20bar" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Válvulas para Amoníaco y Freón</h4>
+              <p>Comando para amoníaco y gases refrigerantes. Fabricación, reparación y venta de repuestos.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Valvulas%20Amoniaco" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Válvula de Seguridad Brida 3" x 4"</h4>
+              <p>Entrada 3" 250# y salida 4" 150# para calderas de gran porte y líneas de vapor principal.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Valvula%20Seguridad%203x4" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Válvulas de Seguridad Bronce e Inox</h4>
+              <p>Reparación y venta de válvulas de seguridad nuevas en bronce naval y aceros inoxidables.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Valvulas%20Bronce%20Inox" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- CATEGORÍA: INSTRUMENTACIÓN -->
+        <div class="catalog-category" data-category="instrumentacion">
+          <h3 class="category-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m14 10-4 4M10 10l4 4"/></svg>
+            Instrumentación Industrial
+          </h3>
+          <div class="catalog-grid">
+            <article class="product-card">
+              <h4>Manómetros y Vacuómetros</h4>
+              <p>Calibración precisa, reparación y certificación con patrones trazables para generadores y líneas de proceso.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Manometros" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Presostatos y Termostatos</h4>
+              <p>Ajuste de rangos y diferenciales, calibración y verificación de cortes de seguridad eléctrica.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Presostatos" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Termómetros, PT100 y Termocuplas</h4>
+              <p>Calibración y verificación térmica de sensores de temperatura industriales.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Termometros%20y%20PT100" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Caudalímetros y Posicionadores</h4>
+              <p>Mantenimiento y calibración de posicionadores electro-neumáticos y medidores de caudal.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Posicionadores%20y%20Caudalimetros" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- CATEGORÍA: VARIOS E INSUMOS -->
+        <div class="catalog-category" data-category="varios">
+          <h3 class="category-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            Varios y Accesorios de Caldera
+          </h3>
+          <div class="catalog-grid">
+            <article class="product-card">
+              <h4>Boquillas para Quemadores de Fueloil</h4>
+              <p>Fabricación y mecanizado de boquillas para cualquier modelo y marca de quemador.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Boquillas%20Quemador" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Tapones Fusibles (Normas ASTM)</h4>
+              <p>Construidos bajo normas ASTM en medidas: Ø 1/2", Ø 3/4", Ø 1" y Ø 1 1/4".</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Tapones%20Fusibles" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Inyectores de Agua para Calderas</h4>
+              <p>Venta de inyectores para alimentación de agua utilizados en generadores de vapor.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Inyectores%20de%20Agua" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Niveles, Tubos y Protectores</h4>
+              <p>Ventas de grifos, tubos de vidrio pyrex y protectores de acrílico para niveles de caldera.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Tubos%20de%20Nivel" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Trampas de Vapor</h4>
+              <p>Reparación y mantenimiento de trampas de vapor termodinámicas, mecánicas y termostáticas.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Trampas%20de%20Vapor" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Bomba Manual para Pruebas Hidráulicas</h4>
+              <p>Presión máxima hasta 60 kg/cm². Disponible para fabricación propia y alquiler de equipos.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Bomba%20Manual%20Hidraulica" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Cepillos para Tubos de Caldera</h4>
+              <p>Venta de cepillos de acero para limpieza, deshollinado y mantenimiento de tubos de caldera.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Cepillos%20Caldera" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+            <article class="product-card">
+              <h4>Empaquetaduras y Manchones</h4>
+              <p>Empaquetaduras para bombas y válvulas. Fabricación de manchones y acoples con manguito.</p>
+              <div class="card-action">
+                <a href="https://wa.me/59895987342?text=Consulta%20sobre%20Empaquetaduras%20y%20Manchones" class="consult-btn" target="_blank" rel="noopener">Consultar por WhatsApp &rarr;</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECCIÓN NOSOTROS (Mantiene textos exactos con alta jerarquía visual)
+         ======================================================================= -->
+    <section id="nosotros" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Trayectoria y Confianza</span>
+          <h2>Nuestra Empresa</h2>
+          <p>Treinta años de solidez en tornería y seguridad mecánica en Uruguay.</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-intro">
+              TECNOMEYN se crea a partir de un profundo conocimiento de la actividad mecánica y tornería industrial que se basan en 30 años de experiencia. Como empresa de servicios apunta a brindar toda su experiencia en beneficio de su Seguridad.
+            </p>
+            <p class="about-text">
+              Nuestro objetivo es tomar acciones que posicionen a TECNOMEYN como una empresa confiable, solvente, flexible, profesional y rápida en los trabajos a realizar. Siempre abiertos a mejorar, cada sugerencia y cada aporte recibido durante este tiempo nos han dado la posibilidad de trabajar con el esfuerzo necesario para ser mejores cada día. Más de cien empresas ya lo han comprobado.
+            </p>
+
+            <!-- Misión y Visión exactas -->
+            <div class="mission-vision-grid">
+              <div class="mv-card mission">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+                  MISIÓN
+                </h3>
+                <p>
+                  “Nuestra marca, nuestra responsabilidad, nuestro calor humano y nuestra eficiencia, conforman junto a ustedes nuestro principal capital y esto hace que cada día renovemos, nuestro compromiso de apoyo y total respaldo para acompañarlo en el crecimiento de su Empresa.”
+                </p>
+              </div>
+
+              <div class="mv-card vision">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                  VISIÓN
+                </h3>
+                <p>
+                  “Hoy no nos conformamos con ser solo un soporte de su empresa. Aspiramos a ser parte integral de cada planta industrial, suministrando nuestra vocación de servicio en el área de la reparación, calibración y certificación de las válvulas de seguridad para calderas y todo tipo de válvulas de uso industrial junto al servicio de asesoramiento técnico así como la fabricación de válvulas especiales y tornería industrial en general.”
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-side">
+            <div class="about-image-card">
+              <img src="assets/images/local1.jpg" alt="Instalaciones Tecnomeyn taller de mecanizado" loading="lazy" width="600" height="450">
+              <div class="about-stat-banner">
+                <div class="about-stat-number">+100</div>
+                <div class="about-stat-label">Empresas confían en Tecnomeyn</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SECCIÓN CONTACTO (Sin mapa repetido: WhatsApp Directo o Formulario)
+         ======================================================================= -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Comuníquese Hoy</span>
+          <h2>Contacto Directo</h2>
+          <p>Elija la opción que le resulte más cómoda: mensaje directo de WhatsApp o envíenos un correo desde el formulario.</p>
+        </header>
+
+        <div class="contact-container">
+          <!-- Columna Izquierda: WhatsApp Directo y Datos Rápidos -->
+          <div class="contact-quick-box">
+            <div class="quick-box-header">
+              <h3>Atención Inmediata</h3>
+              <p>Ideal si se encuentra en planta o taller y necesita una respuesta rápida del equipo técnico.</p>
+            </div>
+
+            <div class="whatsapp-direct-box">
+              <h4>¿Consulta urgente por avería o calibración?</h4>
+              <p>Toque el botón a continuación para abrir WhatsApp directamente con nuestro número:</p>
+              <a href="https://wa.me/59895987342?text=Hola%20Tecnomeyn,%20quisiera%20hacer%20una%20consulta%20técnica." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: 100%;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Mensaje a WhatsApp (095 987 342)
+              </a>
+            </div>
+
+            <ul class="contact-info-list">
+              <li class="contact-info-row">
+                <div class="contact-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <strong>Teléfono Fijo:</strong> 2901 3715
+                </div>
+              </li>
+              <li class="contact-info-row">
+                <div class="contact-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div>
+                  <strong>Horario de Atención:</strong> Lunes a Viernes de 9:00 a 13:00 y 14:00 a 17:00 hs
+                </div>
+              </li>
+              <li class="contact-info-row">
+                <div class="contact-info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <strong>Taller:</strong> Curiales 1531, Montevideo (ver mapa en el pie de página)
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Columna Derecha: Formulario para enviar correo desde la web -->
+          <div class="contact-form-box">
+            <h3>Enviar Correo desde la Web</h3>
+            <p style="color: var(--color-text-muted); margin-bottom: 1.5rem;">
+              Complete los campos y su mensaje se redactará automáticamente para nuestro correo <strong>tecnomeyn@gmail.com</strong>.
+            </p>
+
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="formName" class="form-label">Nombre o Empresa <span class="req">*</span></label>
+                <input type="text" id="formName" class="form-control" placeholder="Ej. Juan Pérez - Fábrica Textil" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formPhone" class="form-label">Teléfono / Celular <span class="req">*</span></label>
+                <input type="tel" id="formPhone" class="form-control" placeholder="Ej. 099 123 456" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail" class="form-label">Correo Electrónico <span class="req">*</span></label>
+                <input type="email" id="formEmail" class="form-control" placeholder="Ej. contacto@suempresa.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Mensaje o Detalle del Trabajo <span class="req">*</span></label>
+                <textarea id="formMessage" class="form-control" placeholder="Indique qué servicio o pieza necesita (calibración de válvulas, tornería, etc.)..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-secondary" style="width: 100%;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Enviar Consulta por Correo
+              </button>
+
+              <div class="form-alert success" id="formSuccess" style="display: none;" aria-live="polite">
+                ✔ ¡Gracias! Se ha preparado su consulta para enviarse a tecnomeyn@gmail.com.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================================
+       PIE DE PÁGINA (Footer completo con Mapa Incrustado y Botones Copiar)
+       ======================================================================= -->
+  <footer class="footer" id="pie-de-pagina">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Canales directos con botón para copiar al lado -->
+        <div>
+          <h3>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Canales de Contacto Directo
+          </h3>
+          <p style="color: #cbd5e1; font-size: 0.96rem; margin-bottom: 1.25rem;">
+            Toque o haga clic para ir directo, o use el botón <strong>"Copiar"</strong> para pegarlo en sus contactos o notas:
+          </p>
+
+          <div class="footer-contact-list">
+            <!-- WHATSAPP -->
+            <div class="footer-contact-item">
+              <a href="https://wa.me/59895987342?text=Hola%20Tecnomeyn,%20me%20comunico%20desde%20la%20web" target="_blank" rel="noopener noreferrer" class="footer-contact-link" title="Abrir chat de WhatsApp">
+                <div class="footer-contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                </div>
+                <div>
+                  <span class="footer-contact-label">WhatsApp Celular</span>
+                  <span class="footer-contact-val">095 987 342</span>
+                </div>
+              </a>
+              <button class="copy-btn" data-copy="095987342" data-label="WhatsApp" aria-label="Copiar número de WhatsApp">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copiar
+              </button>
+            </div>
+
+            <!-- TELÉFONO FIJO -->
+            <div class="footer-contact-item">
+              <a href="tel:29013715" class="footer-contact-link" title="Llamar al teléfono fijo">
+                <div class="footer-contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <span class="footer-contact-label">Teléfono Fijo Taller</span>
+                  <span class="footer-contact-val">2901 3715</span>
+                </div>
+              </a>
+              <button class="copy-btn" data-copy="29013715" data-label="Teléfono fijo" aria-label="Copiar teléfono fijo">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copiar
+              </button>
+            </div>
+
+            <!-- CORREO ELECTRÓNICO -->
+            <div class="footer-contact-item">
+              <a href="mailto:tecnomeyn@gmail.com" class="footer-contact-link" title="Redactar correo a Tecnomeyn">
+                <div class="footer-contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <span class="footer-contact-label">Correo Electrónico</span>
+                  <span class="footer-contact-val">tecnomeyn@gmail.com</span>
+                </div>
+              </a>
+              <button class="copy-btn" data-copy="tecnomeyn@gmail.com" data-label="Correo electrónico" aria-label="Copiar correo electrónico">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                Copiar
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Columna Derecha: Mapa Incrustado Exclusivo en Footer -->
+        <div class="footer-map-container">
+          <h3>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Ubicación del Taller en Montevideo
+          </h3>
+          <p style="color: #cbd5e1; font-size: 0.96rem; margin-bottom: 0.85rem;">
+            Curiales 1531, Montevideo, Uruguay. (Horario: Lunes a Viernes de 9 a 13 y 14 a 17 hs)
+          </p>
+
+          <div class="map-wrapper">
+            <iframe 
+              src="https://www.google.com/maps?q=-34.9027682,-56.1878144&hl=es&z=15&output=embed" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade" 
+              title="Mapa de ubicación Tecnomeyn Curiales 1531 Montevideo">
+            </iframe>
+          </div>
+
+          <div class="map-action-bar">
+            <a href="https://maps.app.goo.gl/L6oFQfZkhwDWn8VH6" target="_blank" rel="noopener noreferrer" class="map-open-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Abrir en Google Maps / GPS
+            </a>
+            <button class="copy-btn" data-copy="Curiales 1531, Montevideo, Uruguay" data-label="Dirección" aria-label="Copiar dirección postal">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              Copiar Dirección
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Barra inferior -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 <strong>TECNOMEYN</strong> — Todos los derechos reservados. Mecánica y Válvulas Industriales.
+        </div>
+        <div>
+          <a href="https://www.facebook.com/100054483938963" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Seguir a Tecnomeyn en Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.8 5H18V0h-3.808C10.597 0 9 1.583 9 4.615V8z"/></svg>
+            Seguinos en Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón flotante directo de WhatsApp para móvil (acceso con pulgar) -->
+  <a href="https://wa.me/59895987342?text=Hola%20Tecnomeyn,%20me%20comunico%20desde%20la%20web" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Contactar por WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+  </a>
+
+  <!-- Mensaje flotante de confirmación de copiado -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
